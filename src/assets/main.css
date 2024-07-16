@@ -1,0 +1,13 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .text-heading {
+        @apply text-Gray text-[15px] font-medium font-poppins
+    }
+    
+}
